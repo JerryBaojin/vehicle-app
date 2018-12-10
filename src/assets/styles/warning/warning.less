@@ -1,0 +1,39 @@
+@import "../base";
+.body-wrap {
+    height: 85%;
+    margin-top: 1rem;
+    overflow: hidden;
+    .waring-wrap {       
+        height: 100%;    
+        overflow: auto;  
+        ul {
+            padding: 0 .4rem;
+            padding-bottom: .4rem;
+            li {
+                text-align: center;
+                margin-top: .6rem;
+                .time-wrap {
+                    padding: .08rem .15rem;
+                    font-size: .26rem;
+                    color: @bodyBgColor;
+                    background-color: #D2D2D4;
+                    border-radius: 10px;
+                }
+                .message-wrap {
+                    background-color: @bodyBgColor;
+                    margin-top: .4rem;
+                    .message-title {
+                        font-size: .3rem;
+                        font-weight: 600;
+                        padding: .25rem 0;
+                    }
+                    .message-cont {
+                        padding: 0 .27rem .41rem .27rem;
+                        text-align: left;
+                        font-size: .28rem;
+                    }
+                }
+            }
+        }
+    }
+}

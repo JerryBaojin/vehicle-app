@@ -1,0 +1,78 @@
+@import "../base";
+.body-wrap {
+    .first-wrap {
+        margin-top: 1.4rem;
+    }
+    .message-wrap {
+        //      margin-top: .4rem;
+        .mint-cell {
+            font-size: .30rem !important;
+            .mint-cell-wrapper {
+                .mint-cell-value {
+                    input {
+                        text-align: right;
+                        padding-right: .2rem;
+                    }
+                }
+            }
+        }
+        .content-wrap {
+            background-color: @bodyBgColor;
+            padding: 0 .31rem .39rem .31rem;
+            ul {
+                li {
+                    font-size: .3rem;
+                    padding: .1rem 0;
+                    position: relative;
+                    .cont-left {
+                        color: @withdraw;
+                    }
+                    .cont-right {
+                        display: inline-block;
+                        width: 40%;
+                        font-weight: 600;
+                        position: absolute;
+                        top: .1rem;
+                        left: 50%;
+                        transform: translate(-50%, 0);
+                    }
+                }
+            }
+        }
+    }
+    .textarea-wrap {
+        margin-top: .2rem;
+        font-size: .30rem !important;
+        .textarea-title {
+            font-weight: 600;
+            background-color: @bodyBgColor;
+            padding: .2rem .2rem 0 .2rem;
+        }
+        .mint-cell {
+            .mint-cell-wrapper {
+                .mint-cell-value {
+                    .span-left {
+                        display: inline-block;
+                        margin-right: .2rem;
+                    }
+                    input {
+                        text-align: right;
+                        padding-right: .2rem;
+                    }
+                }
+            }
+        }
+    }
+    .bottom-wrap {
+        margin-bottom: .4rem;
+    }
+}
+
+.mint-cell-title {
+    font-weight: 550 !important;
+}
+
+img {
+    width: .44rem;
+    height: .44rem;
+}

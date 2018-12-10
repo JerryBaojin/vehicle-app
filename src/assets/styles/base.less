@@ -1,0 +1,71 @@
+@headerColor: #000000; //头部颜色
+@bodyBgColor: white; //主体颜色
+@NoActiveColor: #D1D8E1; //路由没被选中颜色
+@activeColor: #20A293; //路由被选中颜色
+@fontSize: .32rem; //默认字体大小
+@headerFtSize: .32rem; //头部字体大小
+@navHeight: .98rem; //头部，底部高度
+@border: 1px solid #F0F0F0; //边框样式
+@toBeAudited: #F3D843; //待审核颜色
+@withdraw: #CBCBCB; //撤回颜色
+@notThrough: #FF6073; //未通过颜色
+@success: #20A293; //已通过颜色
+
+.body-wrap {
+    width: 100%;
+    font-size: @fontSize;
+    background-color: #f7f7f7;
+}
+.mint-header {
+    background-color: @bodyBgColor;
+    color: @headerColor;
+    height: @navHeight;
+    font-size: @headerFtSize;
+}
+//.mint-header-title {
+//  font-weight: 600 !important;
+//}
+.mint-button {
+    color: @activeColor !important;
+}
+.is-selected {
+    background: none !important;
+    color: @activeColor !important;
+}
+//.mint-tabbar {
+//  background-color: @bodyBgColor;
+//  position: fixed;
+//  bottom: 0;
+//  left: 0;
+//}
+.mint-cell {
+//  border-bottom: @border;
+}
+.navActive {
+    color: @activeColor;
+}
+.navNoActive {
+    color: @NoActiveColor;
+}
+.toBeAudited {
+    color: @toBeAudited;
+}
+.withdraw {
+    color: @withdraw;
+}
+.notThrough {
+    color: @notThrough;
+}
+.success {
+    color: @success;
+}
+.header-img {
+    width: .44rem;
+    height: .44rem;
+}
+.mint-msgbox-confirm {
+    color: @success !important;
+}
+* {
+    text-decoration: none !important;
+}

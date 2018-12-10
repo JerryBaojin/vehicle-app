@@ -1,0 +1,102 @@
+@import "../base";
+.map-body-wrap {
+    height: 91.8%;
+    padding-top: 1.1rem;
+    overflow: hidden !important;
+    width: 100%;
+    font-size: @fontSize;
+    background-color: #f7f7f7;
+    .mint-header {
+        background-color: @bodyBgColor;
+        color: @headerColor;
+        height: @navHeight;
+        font-size: @headerFtSize;
+    }
+    .map-wrap {
+        width: 100%;
+        height: 100%;
+        transform: translateY(.3rem);
+        text-align: center;
+    }
+    .el-vue-search-box-container {
+        position: fixed;
+        width: 95%;
+        top: .2rem;
+        left: 50%;
+        transform: translate(-50%, 0);
+        height: .9rem;
+        background: #fff;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, .15);
+        z-index: 10;
+        .search-box-wrapper {
+            position: absolute;
+            display: flex;
+            align-items: center;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            box-sizing: border-box;
+            input {
+                flex: 1;
+                height: .4rem;
+                line-height: .4rem;
+                letter-spacing: .5px;
+                font-size: .28rem;
+                text-indent: 10px;
+                box-sizing: border-box;
+                border: none;
+                outline: none;
+            }
+            .search-btn {
+                width: .9rem;
+                height: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background: transparent;
+                cursor: pointer;
+                color: @success;
+            }
+        }
+        .search-tips {
+            box-sizing: border-box;
+            width: 100%;
+            ul {
+                width: 100%;
+                li {
+                    width: 100%;
+                    padding: 0;
+                    box-shadow: none;
+                    border-bottom: 1px solid lightgrey;
+                }
+            }
+        }
+    }
+    //  .el-vue-search-box-container {
+    //          margin: 0 auto;
+    //          position: fixed;
+    //          width: 95%;
+    //          top: .2rem;
+    //          left: 50%;
+    //          transform: translate(-50%, 0);
+    //          .search-box-wrapper {
+    //              .search-btn {
+    //                  color: @success;
+    //              }
+    //          }
+    //          .search-tips {
+    //              box-sizing: border-box;
+    //              width: 100% !important;
+    //              ul {                   
+    //                  width: 100% !important;
+    //                  li {
+    //                      width: 100% !important;
+    //                      padding: 0 !important;
+    //                      box-shadow: none;
+    //                      border-bottom: 1px solid lightgrey;
+    //                  }
+    //              }
+    //          }
+    //      }
+}

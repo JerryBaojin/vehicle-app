@@ -1,0 +1,34 @@
+@import "../base";
+.cont {
+    background-color: @bodyBgColor;
+    overflow: auto;
+    height: 100%;
+    .cont-wrap {
+        li {
+            display: flex;
+            -webkit-align-items: center;
+            align-items: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            padding: .31rem .39rem;
+            border-bottom: @border;
+            div {
+                flex: 1;
+                .left-title {
+                    font-size: .3rem;
+                    font-weight: 600;
+                    padding-bottom: .09rem;
+                }
+                .left-message {
+                    font-size: .26rem;
+                    color: #B0B0B0;
+                    padding: .02rem;
+                }
+            }
+            .div-right {
+                text-align: right;
+                font-size: .26rem;
+            }
+        }
+    }
+}

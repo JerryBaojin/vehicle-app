@@ -1,0 +1,43 @@
+@import "../base";
+.body-wrap {     
+    padding-top: 1.4rem;
+    height: 89.5%; 
+    overflow: hidden; 
+    .cont {
+        height: 100%;
+        overflow: auto;
+        background-color: @bodyBgColor;
+        .cont-wrap {
+            li {
+                display: flex;
+                -webkit-align-items: center;
+                align-items: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                padding: .31rem .39rem;
+                border-bottom: @border;
+                div {
+                    width: 60%;
+                    .left-title {
+                        font-size: .3rem;
+                        font-weight: 600;
+                        padding-bottom: .09rem;
+                    }
+                    .left-message {
+                        font-size: .26rem;
+                        color: #B0B0B0;
+                        padding: .02rem;
+                    }
+                }
+                .diligentFrugal-wrap {
+                    width: 100%;
+                }
+                .div-right {
+                    width: 40%;
+                    text-align: right;
+                    font-size: .26rem;
+                }
+            }
+        }
+    }
+}

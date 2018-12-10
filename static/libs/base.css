@@ -1,0 +1,93 @@
+/* 盒子的属性——默认换行 */
+
+html,body,div,ul,li,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,p,table,thead,tbody,tfoot,tr,th,td,form {
+    margin:0;
+    padding:0;
+    border:0;
+
+}
+
+/* 列表 */
+ul,ol {
+    list-style: none;
+    font-size:inherit;
+    color:inherit;
+}
+/* 表格 */
+table {empty-cells:show;}/* 定义了不包含任何内容的表单元格如何表示*/
+
+
+
+
+/* 行内样式的属性--默认不换行 */
+
+
+
+/* 文字 */
+span,b,i,em,del,strong,big,small,pre {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:inherit;
+    color:inherit;
+}
+del{text-decoration:none;}  /* 下划线和删除线的样式去除 */
+em {font-style:normal;}    /* 只是作为钩子来使用 */
+
+
+/* 图片 */
+a img {border:0;}
+img {
+    margin:0;
+    padding:0;
+    border:0;
+    vertical-align: middle;
+
+}
+/* 链接 */
+
+a {
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration: none;
+    font-size:inherit;
+    color:#D1D8E1;
+
+}
+a:hover {
+    margin:0;
+    padding:0;
+    border:0;
+    text-decoration: underline;
+    font-size:inherit;
+    /*color:inherit;*/
+}
+
+/* 框架 */
+iframe,frame,frameset {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:inherit;
+    color:inherit;
+}
+
+/* 表单元素 */
+input,textarea,button,select,option,label,optgroup,fieldset,legend {
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:inherit;
+    color:inherit;
+
+}
+button::-moz-focus-inner,input[type=reset]::-moz-focus-inner,input[type=button]::-moz-focus-inner,input[type=submit]::-moz-focus-inner,input[type=file]>input[type=button]::-moz-focus-inner
+{
+    border:0;
+    padding:0;
+}
+:focus {outline:0;} /* 获取焦点的任何元素都不会出现一个虚框 */
+
+
+
